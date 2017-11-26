@@ -4,13 +4,13 @@
   background-image: url('../../assets/img/coding.jpg');
   background-size: cover;
   background-position: center;
-  height: 93vh;
+  height: 92vh;
 
   #photoDeveloper {
     height: 80vh;
     
     img {
-      height: 70vh;
+      height: 80vh;
     }
   }
 
@@ -18,10 +18,14 @@
     background-color: #000000;
     opacity: 0.5;
     height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     h1 {
       color: #ffffff;
       text-align: center;
+      margin: 0;
     }
   }
 }
