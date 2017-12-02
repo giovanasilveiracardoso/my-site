@@ -1,0 +1,37 @@
+@import '../util.scss';
+
+#about {
+    background-color: #22181c;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10vh 25vh;
+    justify-content: space-between;
+    h2,
+    p,
+    ul {
+        color: #ffffff;
+    }
+    ul li {
+        list-style: none;
+    }
+    .skills,
+    .textAboutMe {
+        width: 80vh;
+    }
+    #skills-stars {
+        display: flex;
+        ul:first-child {
+            padding-left: 0;
+        }
+        ul {
+            li {
+                img {
+                    width: 20px;
+                    height: 18px;
+                }
+            }
+        }
+    }
+}
+
+
