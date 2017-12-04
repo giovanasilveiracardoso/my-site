@@ -2,11 +2,15 @@
 
 #experience {
     background-color: #f9f4f5;
+    padding: 10vh 0;
     
     .div-center {
         margin: auto;
-        width: 60%;
-        padding-top: 10vh;
+        width: 70%;
+
+        #experience-paragraph {
+            color: #9fa3a7;
+        }
 
         h2 {
             color: #5a0001;

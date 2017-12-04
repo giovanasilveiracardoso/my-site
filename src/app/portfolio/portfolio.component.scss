@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+#portfolio {
+    background-color: #22181c;
+    padding: 10vh 0;
+    
+    .div-center {
+        margin: auto;
+        width: 70%;
+
+        h2 {
+            color: #ffffff;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}

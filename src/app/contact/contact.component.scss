@@ -1,0 +1,65 @@
+#contact {
+    background-color: #5a0001;
+    padding-bottom: 10vh;
+
+    .div-center {
+        margin: auto;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        #form-message, #contact-maps {
+            padding-top: 10vh;
+        }
+
+        h2, p {
+            color: #ffffff;
+        }
+
+        .cellphone img {
+            width: 18px;
+            height: 20px;
+        }
+
+        .email img {
+            width: 18px;
+            height: 20px;
+        }
+
+        p {
+            margin: 10px 0 10px 10px;
+
+            span {
+                margin-right: 10px;
+            }
+        }
+
+        $colorInput: #5a0001;
+        input, button, textarea {
+            border-radius: 0;
+            color: $colorInput;
+        }
+
+        ::-webkit-input-placeholder {
+            color: $colorInput;
+         }
+         
+         :-moz-placeholder { /* Firefox 18- */
+            color: $colorInput;  
+         }
+         
+         ::-moz-placeholder {  /* Firefox 19+ */
+            color: $colorInput;  
+         }
+         
+         :-ms-input-placeholder {  
+            color: $colorInput;  
+         }
+
+        button {
+            float: right;
+            background-color: #d8cbcb;
+        }
+    }
+}
