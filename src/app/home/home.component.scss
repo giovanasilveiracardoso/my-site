@@ -4,9 +4,10 @@
     background-position: center;
     height: 92vh;
     #photoDeveloper {
-        height: 80vh;
+        flex-grow: 1;
+        align-items: center;
         img {
-            height: 80vh;
+            height: 70vh;
         }
     }
     #nameDeveloper {
