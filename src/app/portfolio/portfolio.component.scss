@@ -1,19 +1,25 @@
 @charset 'utf-8';
-
 #portfolio {
     background-color: #22181c;
     padding: 10vh 0;
-    
     .div-center {
         margin: auto;
         width: 70%;
-
         h2 {
             color: #ffffff;
         }
-
-        img {
-            width: 100%;
+        #carousel-portfolio {
+            img {
+                width: 100%;
+            }
+            .carousel-caption {
+                position: sticky;
+                margin-top: 2%;
+                clear: both;
+            }
+            h3 {
+                font-size: 1.75em;
+            }
         }
     }
 }
