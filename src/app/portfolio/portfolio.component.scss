@@ -9,6 +9,7 @@
             color: #ffffff;
         }
         #carousel-portfolio {
+            outline: 0;
             img {
                 width: 100%;
             }
@@ -19,6 +20,10 @@
             }
             h3 {
                 font-size: 1.75em;
+
+                a {
+                    color: #FFF;
+                }
             }
         }
     }
