@@ -7,6 +7,7 @@
         width: 70%;
         h2 {
             color: #ffffff;
+            margin-bottom: 0;
         }
         outline: 0;
         img {
@@ -26,9 +27,11 @@
             padding: 0;
             display: flex;
             justify-content: space-around;
+            flex-wrap: wrap;
 
             li {
-                width: 40%;
+                width: 50vh;
+                padding-top: 6vh;
             }
         }
     }
